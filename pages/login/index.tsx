@@ -20,10 +20,10 @@ export default function Login() {
       localStorage.setItem('token', 'mock_token')  
       router.push('/') 
     } else {
-      alert('Invalid credentials')
+      alert('Invalid credential')
     }
   }
-
+ 
   return (
     <LoginWrapper>
       <Form onSubmit={handleSubmit}>
