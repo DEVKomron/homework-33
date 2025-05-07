@@ -1,0 +1,85 @@
+{
+  "students": [
+    {
+      "id": "8cb3",
+      "firstName": "Javohir",
+      "lastName": "Viktorov",
+      "birthDate": "0001-01-01",
+      "classId": "2c23"
+    },
+    {
+      "id": "1979",
+      "firstName": "Kamron",
+      "lastName": "Mirzayev",
+      "birthDate": "0001-01-01",
+      "classId": "2c23"
+    },
+    {
+      "id": "1d0a",
+      "firstName": "Malika ",
+      "lastName": "Ravshaniva",
+      "birthDate": "0001-01-01",
+      "classId": "2c23"
+    },
+    {
+      "id": "5f09",
+      "firstName": "Sevinch",
+      "lastName": "Yusupova",
+      "birthDate": "0001-01-01",
+      "classId": "a34c"
+    },
+    {
+      "id": "c694",
+      "firstName": "Komron",
+      "lastName": "Mamataliyev",
+      "birthDate": "22222-12-13",
+      "classId": "a62d"
+    }
+  ],
+  "classes": [
+    {
+      "id": "2c23",
+      "name": "Gitarislar",
+      "studentCount": 3,
+      "teacherId": "1"
+    },
+    {
+      "id": "a34c",
+      "name": "Boshqachalar",
+      "studentCount": 1,
+      "teacherId": "1"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "0557",
+      "firstName": "Javohir",
+      "lastName": "Viktorov",
+      "birthDate": "0001-01-01",
+      "classes": [
+        1
+      ]
+    },
+    {
+      "id": "4d75",
+      "firstName": "Komron",
+      "lastName": "Mamataliyev",
+      "birthDate": "2004-03-13",
+      "classes": [
+        1
+      ]
+    }
+  ],
+  "school": [
+    {
+      "id": "cfc9",
+      "name": "24 maktab",
+      "location": "qatadir",
+      "phoneNumber": "234964532",
+      "about": "Vashe zor maktab",
+      "overallStudentCount": 1,
+      "overallStaffCount": 2,
+      "overallClassCount": 3
+    }
+  ]
+}
